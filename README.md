@@ -10,6 +10,11 @@ Many planes, one control tower - all the planes talk to the tower, the tower tal
 Intercom:
 ---------
 ```javascript
+// ///////////////////////////////////////////////////////////////////////////
+// Intercom - JavaScript mediator
+// Jared Smith - 2014
+// Based on the previous work of Ryan Florence (https://github.com/rpflorence)
+// ///////////////////////////////////////////////////////////////////////////
 var Intercom = (function() {
 	var listen = function(channel, fn) {
 		if(!Intercom.channels[channel]) Intercom.channels[channel] = [];
