@@ -9,6 +9,7 @@ Many planes, one control tower - all the planes talk to the tower, the tower tal
 
 Example A:
 ========
+```javascript
 // create an object
 var obj = {'foo' : 'bar'};
 
@@ -20,9 +21,11 @@ obj.listenTo('someEvent', function(arg) { alert(arg); });
 
 // then to trigger
 obj.broadcast('someEvent', 'woooooot tooooot');
+```
 
 Example B:
 ==========
+```javascript
 // create an object with a method
 var obj = {'foo' : function(arg) { this.bar = arg; } };
 
@@ -37,3 +40,4 @@ obj.broadcast('bigEvent', 'hello world');
 
 // check results
 console.log(obj.bar) // "hello world";
+```
