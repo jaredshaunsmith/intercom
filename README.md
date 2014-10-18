@@ -32,7 +32,8 @@ var obj = {'foo' : function(arg) { this.bar = arg; } };
 // install Intercom on the obj
 obj.installOn(obj);
 
-// bind listening and pass string instead of function - string will be automatically detected and called on the context
+// bind listening and pass string instead of function
+// string will be automatically detected and called on the context
 obj.listenTo('bigEvent', 'foo');
 
 // the to trigger
