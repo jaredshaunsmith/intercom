@@ -1,0 +1,5 @@
+{
+	"name" : "intercom",
+	"version" : "1.0.0-rc",
+	"main" : "intercom.js"
+}
