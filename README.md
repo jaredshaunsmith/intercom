@@ -6,7 +6,7 @@ JavaScript event mediator / communication middle-man
 
 Many planes, one control tower - all the planes talk to the tower, the tower talks to all the planes... safe landings.
 
-To install via bower:
+To install via npm:
 ```
 npm install intercom-js --save-dev
 ```
