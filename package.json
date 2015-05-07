@@ -1,0 +1,15 @@
+{
+  "name": "intercom",
+  "version": "1.0.0",
+  "description": "communication middle man and broadcasting system (one control tower, many planes)",
+  "main": "intercom.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaredshaunsmith/intercom.git"
+  },
+  "author": "jared s. smith",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/jaredshaunsmith/intercom/issues"
+  }
+}

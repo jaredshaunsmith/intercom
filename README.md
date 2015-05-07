@@ -8,7 +8,7 @@ Many planes, one control tower - all the planes talk to the tower, the tower tal
 
 To install via bower:
 ```
-bower install intercom-js
+npm install intercom-js --save-dev
 ```
 
 Intercom:
