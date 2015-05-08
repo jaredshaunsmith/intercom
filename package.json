@@ -1,6 +1,6 @@
 {
   "name": "intercom",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "communication middle man and broadcasting system (one control tower, many planes)",
   "main": "intercom.js",
   "repository": {
