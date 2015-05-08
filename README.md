@@ -6,6 +6,8 @@ JavaScript event mediator / communication middle-man
 
 Many planes, one control tower - all the planes talk to the tower, the tower talks to all the planes... safe landings.
 
+Demo page: http://jaredshaunsmith.github.io/intercom/example.html
+
 To install via npm:
 ```
 npm install intercom --save-dev
@@ -70,7 +72,7 @@ var obj = {'foo' : 'bar'};
 Intercom.installOn(obj);
 
 // bind listening to our event on the obj
-obj.listenTo('someEvent', function(arg) { alert(arg); });
+obj.listen('someEvent', function(arg) { alert(arg); });
 
 // then to trigger
 obj.broadcast('someEvent', 'woooooot tooooot');
@@ -87,7 +89,7 @@ obj.installOn(obj);
 
 // bind listening and pass string instead of function
 // string will be automatically detected and called on the context
-obj.listenTo('bigEvent', 'foo');
+obj.listen('bigEvent', 'foo');
 
 // the to trigger
 obj.broadcast('bigEvent', 'hello world');
